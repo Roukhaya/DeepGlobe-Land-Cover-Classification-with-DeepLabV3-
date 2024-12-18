@@ -57,4 +57,9 @@ To better understand the model's performance during training, the script plots c
 * Displaying IoU and Dice Loss Scores:
 Finally, summaries are generated to display the final IoU and Dice Loss scores obtained on the training, validation, and test sets. These scores are key indicators of the quality of the segmentations performed by the model and help evaluate its performance in a real-world context.
 
+### Architecture DeepLabV3+
+
+![Ajout de l'image pour le modèle DeepLabV3+](https://github.com/balesco/transhumance/blob/master/deeplabv3_plus_diagram.png?raw=true)
+
+
 
