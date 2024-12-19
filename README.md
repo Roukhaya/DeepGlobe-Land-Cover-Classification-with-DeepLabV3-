@@ -82,6 +82,18 @@ The graph suggests that the model performs well in the validation environment, w
 
 ![IoU Score plot.png](https://github.com/balesco/transhumance/blob/master/IoU%20Score%20plot.png?raw=true)
 
+Unlike IoU, a lower Dice Loss is preferable.
+![Dice Loss.png](https://github.com/balesco/transhumance/blob/master/Dice%20Loss.png?raw=true)
+
+* Dice Loss: There is a slight improvement between epoch 0 and 1 (decrease in Dice Loss), but afterwards, the values seem to stabilize around 0.285, indicating that the model reaches a point where the loss no longer decreases significantly.
+* IoU Score: Shows an initial improvement between epoch 0 and 1 (increase in the score), but after that, it fluctuates slightly around 0.623, with the model not making major improvements.
+
+ ![Dice Loss & score IoU.png](https://github.com/balesco/transhumance/blob/master/Dice%20Loss%20&%20score%20IoU.png?raw=true)
+
+
+
+
+
 
 
 
